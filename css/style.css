@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+
+}
+
+
+header {
+    width: 100%;
+}
+
+.conteiner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.navBar {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* padding: 20px; */
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav ul {
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 20px;
+    /* margin: 10px; */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    letter-spacing: .1875rem;
+}
+
+.logo {
+    height: 80px;
+    margin-top: 30px;
+}
+
+
+.fondoInicio {
+    width: 100%;
+    height: 100vh;
+}
+
+.textoInicio h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1.4375rem;
+}
+
+.flechaInicio {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    width: 50px;
+    transform: translate(-50%, 50%);
+}
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.texto1 {
+    position: absolute;
+    top: 500px;
+    left: 35%;
+    transform: translate(-50%, 50%);
+    font-size: 1.375rem;
+    text-align: left;
+}
+
+.texto2 {
+    text-transform: uppercase;
+    width: 100%;
+    position: absolute;
+    top: 400px;
+    left: 40%;
+    transform: translate(-45%, -65%);
+    font-size: 1.25rem;
+}
+
+section .imgTexto {
+    width: 100%;
+}
+
+.texto1 {
+    position: absolute;
+    top: 500px;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 1.375rem;
+    text-align: left;
+}
+
+.texto2 {
+    text-transform: uppercase;
+    width: 100%;
+    position: absolute;
+    top: 400px;
+    left: 40%;
+    transform: translate(-45%, -65%);
+    font-size: 1.25rem;
+
+}
+
+.logoTrailer {
+    margin: 50px;
+    width: 100%;
+
+}
+
+section .imgTexto {
+    width: 100%;
+}
+
+.videos{
+    width: 100%;
+    text-align: center;
+}
+
+
+.videoIzquierda{
+    margin-right: 50%;
+    padding-left: 20px;
+}
+
+.videoDerecha{
+    margin-left: 50%;
+    padding-right: 20px;
+}
