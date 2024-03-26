@@ -12,14 +12,34 @@
 
     <!-- barra navegacion -->
     <header>
-        <nav>
-            <ul class="navBar">
-                <li><a href="historia.html">Historia</a></li>
-                <li><a href="personajes.html">Personajes</a></li>
-                <li><a href="../index.html"><img class="logo" src="../assets/img/logo.png"></a></li>
-                <li><a href="consejos.html">Trucos</a></li>
-                <li><a href="descargas.html">Momentos</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg data-bs-theme=dark">
+            
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="./assets/img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="barra-navegacion">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/personajes.html">PERSONAJES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a  class="nav-link" href="./pages/historia.html">HISTORIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/consejos.html">CONSEJOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/descargas.html">MOMENTOS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
