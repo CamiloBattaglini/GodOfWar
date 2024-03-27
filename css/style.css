@@ -219,15 +219,41 @@ footer {
 /* personajes */
 
 .personajes {
+
+    display: grid;
+    grid-template-columns: 3 1fr;
+    grid-gap: 10px;
+
+
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     padding: 50px;
     margin-top: 50px;
 }
 
 .Kratos {
     width: 100%;
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.Atreus {
+    width: 100%;
+    grid-column: 1 / 3;
+    grid-row: 2;
+}
+
+.Mimir {
+    width: 100%;
+    grid-column: 1 / 3;
+    grid-row: 3;
+}
+
+.Freya {
+    width: 100%;
+    grid-column: 1 / 3;
+    grid-row: 4;
 }
 
 .textoPersonajesD {
@@ -239,6 +265,8 @@ footer {
     text-align: justify;
     padding-right: 50px;
     font-size: 25px;
+    grid-column: 2 / 3;
+    grid-row: 1;
 
 }
 
@@ -258,6 +286,8 @@ footer {
     text-align: justify;
     padding-right: 50px;
     font-size: 25px;
+    grid-column: 2 / 3;
+    grid-row: 1;
 
 }
 
@@ -416,7 +446,78 @@ h1 {
     }
 }
 
+@media(max-width:348px){
+    .videosMomentos{
+
+        align-items: center;
+        text-align: center;
+    }
+
+    .titulo{
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .videosMomentos .video{
+        width: 225px;
+        height: 150px;
+    }
+
+    .personajes{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Kratos{
+        width: 100%;
+    }
+
+    .textoPersonajesD {
+        width: 100%;
+        font-size: 12px;
+        padding: 10px;
+    
+    }
+    
+    .fotoPersonajeI {
+        width: 100%;
+        margin: 12px;
+        /* padding: 5px; */
+    
+    }
+    
+    .textoPersonajesI {
+        width: 100%;
+        font-size: 12px;
+        padding: 10px;
+    
+    }
+    
+    .fotoPersonajeD {
+        float: right;
+        width: 100%;
+        /* padding: 50px; */
+    }
+
+    footer{
+        font-size: 10px;
+    }
+
+
+    
+}
+
 @media (max-width:320px){
+
+    .collapse .navbar-collapse{
+        justify-content: space-between;
+
+    }
+
+    .nav-link{
+        font-size: 2px;
+    }
+
     nav .navBar{
         top: 7%;
         left: 80%;
@@ -430,7 +531,7 @@ h1 {
     }
 
     nav ul li a{
-        font-size: 4px;
+        font-size: 2px;
     }
 
     nav ul{
@@ -513,7 +614,15 @@ h1 {
         font-size: 16px;
     }
     
+    
+
+    .videosMomentos .video{
+        width: 275px;
+        height: 200px;
+    }
 }
+
+
 
 
 
