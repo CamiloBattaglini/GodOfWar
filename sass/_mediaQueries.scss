@@ -1,0 +1,239 @@
+@media (max-width: 768px) {
+    nav .navBar{
+        top: 7%;
+        left: 50%;
+        text-align: center;
+    }
+
+    .logo{
+        height: 60px;
+        margin-top: 25px;
+    }
+
+    .textoInicio h1{
+        font-size: 20px;
+        top: 60%;
+    }
+
+    .fondoInicio{
+        height: 100vh;
+    }
+
+    .texto1{
+        top: 300px;
+        font-size: 17px;
+        left: 40%;
+    }
+
+    .texto2{
+        top: 125px;
+        font-size: 18px;
+        width: 80%;
+        left: 45%;
+        text-align: left;
+    }
+
+    .logoTrailer{
+        height: 8.125rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .videoIzquierda{
+        margin-top: 50px;
+        padding: 40px;
+        margin-right: 0px;
+        width: 500px;
+    }
+
+    .videoDerecha{
+        padding: 40px;
+        margin-left: 0px;
+        width: 500px;
+    }
+
+    .piePagina{
+        color: white;
+    }
+}
+
+@media(max-width:348px){
+    .videosMomentos{
+
+        align-items: center;
+        text-align: center;
+    }
+
+    .titulo{
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .videosMomentos .video{
+        width: 225px;
+        height: 150px;
+    }
+
+    .personajes{
+        display: flex;
+        flex-direction: column;
+        width: 100vh;
+    }
+
+    .Kratos{
+        width: 100%;
+    }
+
+    .fotoPersonajeI{
+        float:none;
+        width: 100%;
+
+    }
+
+    .logoTrailer img{
+        height: 100px;
+        text-align: center;
+        margin-right: 50px;
+    }
+
+    .textoPersonajesD{
+        float: none;
+        width: 125%;
+        font-size: 20px;
+    }
+
+    .fotoPersonajeD{
+        float:none;
+        width: 100%;
+    }
+
+    .textoPersonajesI{
+        float: none;
+        width: 125%;
+        font-size: 20px;
+
+    }
+
+
+    footer{
+        font-size: 10px;
+    }
+
+
+    
+}
+
+@media (max-width:320px){
+
+    .collapse .navbar-collapse{
+        justify-content: space-between;
+
+    }
+
+    .nav-link{
+        font-size: 2px;
+    }
+
+    nav .navBar{
+        top: 7%;
+        left: 80%;
+
+        width: 100vh;
+    }
+
+    .logo{
+        height: 40px;
+        margin-top: 25px;
+    }
+
+    nav ul li a{
+        font-size: 2px;
+    }
+
+    nav ul{
+        align-items: center;
+    }
+
+    .texto1{
+        top: 150px;
+        font-size: 4px;
+        left: 40%;
+    }
+
+    .texto2{
+        top: 100px;
+        font-size: 8px;
+        width: 80%;
+        left: 45%;
+        text-align: left;
+    }
+
+
+    .personajes{
+        display: flex;
+        flex-direction: column;
+        width: 100vh;
+    }
+
+    .Kratos{
+        width: 100%;
+    }
+
+    .fotoPersonajeI{
+        float:none;
+        width: 100%;
+
+    }
+
+    .logoTrailer img{
+        height: 100px;
+        text-align: center;
+        margin-right: 50px;
+    }
+
+    .textoPersonajesD{
+        float: none;
+        width: 125%;
+        font-size: 20px;
+    }
+
+    .fotoPersonajeD{
+        float:none;
+        width: 100%;
+    }
+
+    .textoPersonajesI{
+        float: none;
+        width: 125%;
+        font-size: 20px;
+
+    }
+
+    .videoIzquierda{
+        margin-top: 50px;
+        padding: 40px;
+        margin-right: 0px;
+        width: 300px;
+        height: 200px;
+    }
+
+    .videoDerecha{
+        padding: 40px;
+        margin-left: 0px;
+        width: 300px;
+        height: 200px;
+    }
+
+    footer{
+        width: 100%;
+        align-items: center;
+        font-size: 16px;
+    }
+    
+    
+
+    .videosMomentos .video{
+        width: 275px;
+        height: 200px;
+    }
+}

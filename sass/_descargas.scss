@@ -1,0 +1,26 @@
+.videosMomentos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    .videosCentrado {
+        width: 100%;
+        text-align: center;
+    
+    }
+    .titulo {
+        letter-spacing: 5px;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    .video {
+
+        margin: 25px;
+    }
+}
+
+
+
+
+
+
+

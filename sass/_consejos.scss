@@ -1,0 +1,70 @@
+// consejos
+
+.consejos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+        margin-top: 100px;
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+    .trucos {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .titulosTrucos {
+        font-size: 22px;
+        letter-spacing: 4px;
+        margin-top: 34px;
+        padding: 15px;
+        text-align: left;
+    
+    
+    }
+    p {
+        font-size: 18px;
+        padding: 30px;
+        letter-spacing: 2px;
+        text-align: left;
+        width: 50%;
+        align-items: center;
+    }
+    .listaTrucos {
+        width: 50%;
+        text-align: left;
+        padding-left: 30px;
+    }
+    .fotoTrucos {
+        width: 47%;
+        float: right;
+        padding: 20px;
+    }
+    .division {
+        text-align: center;
+    }
+    .linea {
+        width: 50%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
