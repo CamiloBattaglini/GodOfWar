@@ -12,66 +12,78 @@
 
 
 @media only screen and (max-width: 768px) {
-    nav .navBar{
-        top: 7%;
+    nav .navBar {
+        width: 100%;
 
         text-align: center;
     }
 
-    .logo{
+    .logo {
         height: 40px;
         margin-top: 25px;
     }
+    .fondoInicio {
+        width: 400px;
+        height: 800px;
+    }
 
-    .textoInicio h1{
+    .inicioFondo h1{
+        align-items: center;
+    }
+    .textoInicio h1 {
+        
         font-size: 12px;
-        top: 60%;
     }
 
-    .fondoInicio{
-        height: 100vh;
-    }
+    
 
-    .contenedor .texto1{
+    .contenedor .texto1 {
         top: 300px;
         font-size: 13px;
         left: 40%;
     }
 
-    .contenedor .texto2{
+    .contenedor .texto2 {
         font-size: 14px;
     }
 
-    .trailer .logoTrailer img{
+    .trailer .logoTrailer img {
         // height: 8.125rem;
         width: 21.875rem;
     }
 
-    .videoIzquierda{
+    .videoIzquierda {
         margin-top: 50px;
         padding: 40px;
         margin-right: 0px;
         width: 350px;
     }
 
-    .videoDerecha{
+    .videoDerecha {
         padding: 40px;
         margin-left: 0px;
         width: 350px;
     }
 
-    .piePagina{
+    .piePagina {
         color: white;
     }
 }
 
-@media(max-width:425px){
-    header nav div .container-fluid{
+@media(max-width:425px) {
+
+    .navbar {
+        position: fixed;
+        z-index: 100;
+    }
+
+
+    header nav div .container-fluid {
         width: 100%;
     }
 
-    
-    .personajes{
+
+    .personajes {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -79,30 +91,33 @@
         padding-right: 12px;
         margin: 0px;
         align-items: center;
-        .textoPersonajesD{
+
+        .textoPersonajesD {
             width: 100%;
             font-size: 15px;
-            
+
         }
-        .fotoPersonajeI{
+
+        .fotoPersonajeI {
 
             width: 100%;
-    
+
         }
+
         .fotoPersonajeD {
             width: 100%;
         }
-    
-        .textoPersonajesI{
-            
+
+        .textoPersonajesI {
+
             width: 100%;
             font-size: 15px;
-    
+
         }
     }
 
 
-    .historia .textoHistoriaI{
+    .historia .textoHistoriaI {
         width: 100%;
         text-align: justify;
         padding: 0px 15px 0px 15px;
@@ -111,43 +126,58 @@
         float: none;
     }
 
-    .historia .fotoHistoriaDerecha{
+    .historia .fotoHistoriaDerecha {
         width: 100%;
         float: none;
     }
-    .historia .textoHistoriaD{
+
+    .historia .textoHistoriaD {
         width: 100%;
         padding: 0px 15px 0px 15px;
         margin: 0;
         font-size: 15px;
         float: none;
     }
-    .historia .fotoHistoriaIzquierda{
+
+    .historia .fotoHistoriaIzquierda {
         width: 100%;
         float: none;
     }
 
-    
-    
-    .logoTrailer img{
+
+    .trailer{
+        align-items: center;
+        justify-content: center;
+    }
+    .logoTrailer img {
         height: 100px;
         text-align: center;
         margin-right: 50px;
         padding: 0;
     }
 
-    .videosMomentos{
+    .videoIzquierda {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .videoDerecha {
+        margin: 0;
+        padding: 0;
+    }
+
+    .videosMomentos {
         margin-top: 20px;
         align-items: center;
         text-align: center;
     }
 
-    .videosCentrado .titulo{
+    .videosCentrado .titulo {
         align-items: center;
         font-size: 8px;
     }
 
-    .videosMomentos .video{
+    .videosMomentos .video {
         width: 350px;
         height: 200px;
     }
@@ -157,47 +187,47 @@
 
 
 
-    
+
 }
 
-@media (max-width:320px){
+@media (max-width:320px) {
 
-    .collapse .navbar-collapse{
+    .collapse .navbar-collapse {
         justify-content: space-between;
 
     }
 
-    .nav-link{
+    .nav-link {
         font-size: 2px;
     }
 
-    nav .navBar{
+    nav .navBar {
         top: 7%;
         left: 80%;
 
         width: 100vh;
     }
 
-    .logo{
+    .logo {
         height: 40px;
         margin-top: 25px;
     }
 
-    nav ul li a{
+    nav ul li a {
         font-size: 2px;
     }
 
-    nav ul{
+    nav ul {
         align-items: center;
     }
 
-    .texto1{
+    .texto1 {
         top: 150px;
         font-size: 4px;
         left: 40%;
     }
 
-    .texto2{
+    .texto2 {
         top: 100px;
         font-size: 8px;
         width: 80%;
@@ -206,49 +236,49 @@
     }
 
 
-    .personajes{
+    .personajes {
         display: flex;
         flex-direction: column;
         width: 100vh;
     }
 
-    .Kratos{
+    .Kratos {
         width: 100%;
     }
 
-    .fotoPersonajeI{
+    .fotoPersonajeI {
         width: 100%;
 
     }
 
-    
 
-    .textoPersonajesD{
+
+    .textoPersonajesD {
         width: 100%;
         font-size: 5px;
     }
 
-    .fotoPersonajeD{
+    .fotoPersonajeD {
         width: 100vh;
     }
 
-    .textoPersonajesI{
+    .textoPersonajesI {
         width: 100%;
         font-size: 5px;
         padding: 0px;
-        text-align:left ;
+        text-align: left;
         padding-right: 0px;
         margin: 0px;
 
     }
 
-    .logoTrailer img{
+    .logoTrailer img {
         height: 100px;
         text-align: center;
         margin-right: 50px;
     }
 
-    .videoIzquierda{
+    .videoIzquierda {
         margin-top: 50px;
         padding: 40px;
         margin-right: 0px;
@@ -256,26 +286,25 @@
         height: 200px;
     }
 
-    .videoDerecha{
+    .videoDerecha {
         padding: 40px;
         margin-left: 0px;
         width: 300px;
         height: 200px;
     }
 
-    footer{
+    footer {
         width: 100%;
         align-items: center;
         font-size: 14px;
     }
-    
-    .videoCentrado .titulo{
+
+    .videoCentrado .titulo {
         font-size: 15px;
     }
 
-    .videosMomentos .video{
+    .videosMomentos .video {
         width: 275px;
         height: 200px;
     }
 }
-

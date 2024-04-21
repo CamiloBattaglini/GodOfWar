@@ -11,11 +11,12 @@ body {
 }
 
 header .navbar {
-  position: absolute;
-  top: 5%;
+  top: 30px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
+  position: fixed;
+  z-index: 100;
   display: flex;
   flex-direction: row;
   background-color: transparent;
@@ -112,22 +113,33 @@ footer {
 }
 
 .trailer {
+  padding: 30px;
+  width: 100%;
   background-color: black;
 }
+.trailer .letras {
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.trailer p:hover {
+  text-shadow: 0 0 30px #fff;
+  cursor: pointer;
+}
 .trailer .logoTrailer {
-  margin: 50px 50px;
-  padding: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .trailer .videos {
   width: 100%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .trailer .videos .videoIzquierda {
-  margin-right: 50%;
   padding: 20px;
 }
 .trailer .videos .videoDerecha {
-  margin-left: 50%;
   padding: 20px;
 }
 
@@ -305,19 +317,22 @@ footer {
 
 @media only screen and (max-width: 768px) {
   nav .navBar {
-    top: 7%;
+    width: 100%;
     text-align: center;
   }
   .logo {
     height: 40px;
     margin-top: 25px;
   }
+  .fondoInicio {
+    width: 400px;
+    height: 800px;
+  }
+  .inicioFondo h1 {
+    align-items: center;
+  }
   .textoInicio h1 {
     font-size: 12px;
-    top: 60%;
-  }
-  .fondoInicio {
-    height: 100vh;
   }
   .contenedor .texto1 {
     top: 300px;
@@ -346,6 +361,10 @@ footer {
   }
 }
 @media (max-width: 425px) {
+  .navbar {
+    position: fixed;
+    z-index: 100;
+  }
   header nav div .container-fluid {
     width: 100%;
   }
@@ -395,10 +414,22 @@ footer {
     width: 100%;
     float: none;
   }
+  .trailer {
+    align-items: center;
+    justify-content: center;
+  }
   .logoTrailer img {
     height: 100px;
     text-align: center;
     margin-right: 50px;
+    padding: 0;
+  }
+  .videoIzquierda {
+    margin: 0;
+    padding: 0;
+  }
+  .videoDerecha {
+    margin: 0;
     padding: 0;
   }
   .videosMomentos {

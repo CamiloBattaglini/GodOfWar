@@ -50,21 +50,38 @@
     width: 100%;
 }
 .trailer{
+    padding: 30px;
+    width: 100%;
     background-color: black;
-    .logoTrailer {
-        margin: 50px 50px;
-        padding: 5px;
+
+    .letras{
+        font-size: 25px;
+        letter-spacing: 2px;
+        
     }
+    p:hover{
+        text-shadow: 0 0 30px #fff;
+        cursor: pointer;
+    }
+    
+
+    .logoTrailer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .videos {
         width: 100%;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+
         .videoIzquierda {
-            margin-right: 50%;
             padding: 20px;
         }
         
         .videoDerecha {
-            margin-left: 50%;
             padding: 20px;
         }
     }

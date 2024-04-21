@@ -14,41 +14,43 @@ body {
 
 }
 
-header{
+header {
     .navbar {
-        position: absolute;
-        top: 5%;
+        top: 30px;
         left: 50%;
         transform: translate(-50%, -50%);
-    
-    
-    
         width: 100%;
+        position: fixed;
+        z-index: 100;
+
+        
         display: flex;
         flex-direction: row;
         background-color: transparent;
-    
+
         .container-fluid {
             background-color: white;
-    
-    
+
+
             .navbar-brand img {
                 height: 50px;
-        
+
             }
+
             .navbar-collapse {
                 justify-content: flex-end;
                 align-items: center;
                 color: black;
-            
+
             }
+
             ul li {
                 list-style: none;
                 display: inline-block;
                 margin-right: 20px;
-            
+
             }
-            
+
             ul li a {
                 font-size: 15px;
                 text-decoration: none;
@@ -58,15 +60,16 @@ header{
                 font-family: "Oswald";
                 /* text-shadow: 5px 4px 5px black; */
             }
+
             .nav-link {
                 margin-top: 12px;
             }
-            
+
         }
-    
-        
-        
-    
+
+
+
+
     }
 }
 
