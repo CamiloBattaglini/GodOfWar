@@ -3,8 +3,9 @@
     height: 650px;
     height: 100vh;
 }
-.textoInicio{
-    h1{
+
+.textoInicio {
+    h1 {
         position: absolute;
         top: 55%;
         left: 50%;
@@ -14,6 +15,7 @@
         font-size: 1.4375rem;
         color: black;
     }
+
     .flechaInicio {
         position: absolute;
         top: 90%;
@@ -22,12 +24,14 @@
         transform: translate(-50%, -50%);
     }
 }
+
 .contenedor {
     position: relative;
     display: inline-block;
     text-align: center;
     width: 100%;
     color: $color-texto;
+
     .texto2 {
         text-transform: uppercase;
         width: 100%;
@@ -36,7 +40,10 @@
         left: 45%;
         transform: translate(-45%, -65%);
         font-size: 1.25rem;
+        color: black;
+        text-shadow: 0 0 30px white;
     }
+
     .texto1 {
         position: absolute;
         top: 400px;
@@ -44,69 +51,80 @@
         transform: translate(-50%, -50%);
         font-size: 19px;
         text-align: left;
+        color: black;
+        text-shadow: 0 0 30px white;
     }
 }
+
 .imgTexto {
     width: 100%;
 }
-.trailer{
-    padding: 30px;
+
+.trailer {
     width: 100%;
     background-color: black;
 
-    .letras{
-        font-size: 25px;
-        letter-spacing: 2px;
-        
-    }
-    p:hover{
-        text-shadow: 0 0 30px #fff;
-        cursor: pointer;
-    }
-    
 
-    .logoTrailer {
+
+    // texto nordico comienza
+
+    .trailerLogo {
+        width: 325px;
+
+    }
+
+    .texto {
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+        gap: 50px;
+        font-size: 25px;
     }
+
+    .texto-cambiante{
+        width: 100%;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .texto-hover{
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .texto-cambiante .texto-hover {
+        display: none;
+        color: white;
+        text-shadow: 0 0 30px white;
+
+    }
+
+    .texto-cambiante:hover .texto-original {
+        display: none;
+    }
+
+    .texto-cambiante:hover .texto-hover {
+        display: inline;
+    }
+
+    // texto nordico termina
+
+
 
     .videos {
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
 
         .videoIzquierda {
             padding: 20px;
         }
-        
+
         .videoDerecha {
             padding: 20px;
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -8,10 +8,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 
+@media only screen and (max-width: 1440px) {
+    // index
 
+    .textoInicio h1 {
+        font-size: 19px;
+    }
+
+    .contenedor .texto2 {
+        font-size: 18px;
+    }
+
+    .contenedor .texto1 {
+        font-size: 17px;
+    }
+
+    .trailer .texto {
+        font-size: 19px;
+    }
+
+    .videos .videoIzquierda,
+    .videoDerecha {
+        width: 395px;
+    }
+}
 
 
 @media only screen and (max-width: 768px) {
+    ul.barra-navegacion {
+        display: flex;
+        justify-content: space-between;
+    }
+
     nav .navBar {
         width: 100%;
 
@@ -22,48 +50,93 @@
         height: 40px;
         margin-top: 25px;
     }
+
     .fondoInicio {
-        width: 400px;
-        height: 800px;
+        width: 100%;
+
     }
 
-    .inicioFondo h1{
+    .inicioFondo h1 {
         align-items: center;
     }
+
     .textoInicio h1 {
-        
+
         font-size: 12px;
     }
 
-    
-
     .contenedor .texto1 {
         top: 300px;
-        font-size: 13px;
-        left: 40%;
+        font-size: 12px;
+        text-align: center;
+        width: 90%;
     }
 
     .contenedor .texto2 {
-        font-size: 14px;
+        font-size: 12px;
     }
 
-    .trailer .logoTrailer img {
+    .trailer .logoTrailer {
         // height: 8.125rem;
-        width: 21.875rem;
+        width: 300px;
     }
 
-    .videoIzquierda {
-        margin-top: 50px;
-        padding: 40px;
-        margin-right: 0px;
-        width: 350px;
+    .texto-cambiante,
+    .texto-hover {
+        display: none;
     }
 
-    .videoDerecha {
-        padding: 40px;
-        margin-left: 0px;
-        width: 350px;
+    .videos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+
+    .videos .videoDerecha {
+        width: 500px;
+    }
+
+    .videos .videoIzquierda {
+        width: 500px;
+
+    }
+
+    .personajes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Kratos , .Atreus , .Freya , .Mimir{
+        width: 100%;
+        grid-column: none;
+        padding: 0;
+        margin: 0;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .personajes .textoPersonajesD{
+        width: 100%;
+        grid-column: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .personajes .textoPersonajesI{
+        width: 100%;
+        grid-column: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .personajes .fotoPersonajeD, .personajes .fotoPersonajeI{
+        width: 100%;
+    }
+
+
+
 
     .piePagina {
         color: white;
@@ -83,6 +156,17 @@
     }
 
 
+    .contenedor .texto1 {
+        top: 130px;
+        font-size: 12px;
+    }
+
+    .contenedor .texto2 {
+        top: 50px;
+        font-size: 12px;
+    }
+
+
     .personajes {
         display: flex;
         flex-direction: column;
@@ -91,6 +175,7 @@
         padding-right: 12px;
         margin: 0px;
         align-items: center;
+        margin-top: 23px;
 
         .textoPersonajesD {
             width: 100%;
@@ -114,6 +199,10 @@
             font-size: 15px;
 
         }
+    }
+
+    .fotoTrucos{
+        width: 100%;
     }
 
 
@@ -145,10 +234,11 @@
     }
 
 
-    .trailer{
+    .trailer {
         align-items: center;
         justify-content: center;
     }
+
     .logoTrailer img {
         height: 100px;
         text-align: center;
@@ -156,14 +246,13 @@
         padding: 0;
     }
 
-    .videoIzquierda {
-        margin: 0;
-        padding: 0;
+    .videos .videoDerecha {
+        width: 100%;
     }
-    
-    .videoDerecha {
-        margin: 0;
-        padding: 0;
+
+    .videos .videoIzquierda {
+        width: 100%;
+
     }
 
     .videosMomentos {
@@ -221,28 +310,33 @@
         align-items: center;
     }
 
-    .texto1 {
-        top: 150px;
-        font-size: 4px;
-        left: 40%;
-    }
+    .contenedor {
 
-    .texto2 {
-        top: 100px;
-        font-size: 8px;
-        width: 80%;
-        left: 45%;
-        text-align: left;
+        .texto1 {
+            top: 150px;
+            font-size: 5 px;
+            text-align: center;
+        }
+
+        .texto2 {
+            top: 100px;
+            font-size: 7px;
+            width: 80%;
+
+            text-align: center;
+        }
     }
 
 
     .personajes {
+
         display: flex;
         flex-direction: column;
-        width: 100vh;
+        width: 100%;
     }
 
     .Kratos {
+        margin-top: 70px;
         width: 100%;
     }
 

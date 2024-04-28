@@ -30,17 +30,17 @@
         padding: 30px;
         letter-spacing: 2px;
         text-align: left;
-        width: 50%;
+        width: 100%;
         align-items: center;
     }
     .listaTrucos {
-        width: 50%;
+        width: 100%;
         text-align: left;
         padding-left: 30px;
     }
     .fotoTrucos {
-        width: 47%;
-        float: right;
+        width: 100%;
+        justify-content: right;
         padding: 20px;
     }
     .division {
